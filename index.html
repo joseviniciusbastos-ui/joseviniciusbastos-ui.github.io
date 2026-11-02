@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sirius — Política de Privacidade</title>
+<style>
+  :root { --tinta:#1f2933; --fundo:#ffffff; --suave:#52606d; --linha:#e4e7eb; --destaque:#0d1b2a; }
+  @media (prefers-color-scheme: dark) { :root { --tinta:#e4e7eb; --fundo:#111820; --suave:#9aa5b1; --linha:#2b3640; --destaque:#90a4ae; } }
+  body { margin:0; background:var(--fundo); color:var(--tinta); font:16px/1.65 "Segoe UI", Arial, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:28px; margin:0 0 4px; color:var(--destaque); }
+  h2 { font-size:19px; margin:32px 0 8px; padding-bottom:4px; border-bottom:1px solid var(--linha); }
+  .sub { color:var(--suave); margin:0 0 24px; }
+  li { margin:4px 0; }
+  code { font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Sirius</h1>
+<p class="sub">Assistente de organização processual de uso pessoal do advogado José Vinícius Bastos Pereira (OAB/DF nº 69.309).<br>
+Política de Privacidade — última atualização: 2 de novembro de 2026.</p>
+
+<h2>1. O que é o Sirius</h2>
+<p>O Sirius é uma ferramenta de uso exclusivo e pessoal do seu titular. Ele não é oferecido ao público, não tem outros usuários e não é comercializado. Serve para organizar intimações e prazos processuais: lê publicações oficiais (Diário de Justiça Eletrônico Nacional e DataJud, do CNJ), calcula prazos, registra-os na agenda do próprio titular e envia a ele um relatório diário por e-mail.</p>
+
+<h2>2. Dados do Google acessados e para quê</h2>
+<p>O Sirius acessa somente as contas Google do próprio titular, com autorização dada por ele, e apenas para estas finalidades:</p>
+<ul>
+  <li><b>Google Agenda</b> (<code>calendar.app.created</code>, <code>calendar.readonly</code>): criar e atualizar eventos de prazos na agenda “Sirius — Prazos”, criada pelo próprio app, e consultar as demais agendas apenas para evitar conflitos de horário.</li>
+  <li><b>Gmail — envio</b> (<code>gmail.send</code>): enviar o relatório diário do titular para o próprio titular.</li>
+  <li><b>Gmail — leitura</b> (<code>gmail.readonly</code>): ler, na conta do titular dedicada a esse fim, os avisos automáticos enviados pelos tribunais (remetentes <code>*.jus.br</code>) e as mensagens de decisão que o próprio titular envia ao Sirius.</li>
+  <li><b>Google Drive</b> (<code>drive.readonly</code>, <code>drive.file</code>): ler a pasta de trabalho do titular para fazer cópias de segurança (backup) dentro do próprio Drive do titular, e criar ou atualizar somente os arquivos e pastas criados pelo Sirius (registro de execução, relatórios e backups).</li>
+</ul>
+
+<h2>3. Onde os dados ficam</h2>
+<ul>
+  <li>Os dados permanecem nas contas Google do titular e nos computadores do titular. As credenciais de acesso ficam armazenadas localmente, fora de repositórios de código.</li>
+  <li>Uma máquina virtual do titular (Oracle Cloud, região de São Paulo) executa a captura diária. Ela tem acesso apenas à agenda do Sirius, ao envio do relatório e aos arquivos criados pelo Sirius. Não tem acesso de leitura aos documentos do Drive.</li>
+  <li>Nenhum dado é vendido, compartilhado, cedido ou transferido a terceiros, nem usado para publicidade, perfilamento ou treinamento de modelos de inteligência artificial.</li>
+</ul>
+
+<h2>4. Uso limitado (Google API Services User Data Policy)</h2>
+<p>O uso e a transferência de informações recebidas das APIs do Google pelo Sirius seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado. Os dados são usados apenas para as funções descritas acima, em benefício do próprio titular, e não são lidos por pessoas, exceto pelo próprio titular.</p>
+
+<h2>5. Sigilo profissional e LGPD</h2>
+<p>O tratamento observa o sigilo profissional do advogado (Lei nº 8.906/1994) e a Lei Geral de Proteção de Dados (Lei nº 13.709/2018). Documentos de clientes não são enviados a serviços de terceiros pelo Sirius.</p>
+
+<h2>6. Como revogar o acesso</h2>
+<p>O titular pode revogar a qualquer momento o acesso do Sirius às suas contas em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Os arquivos criados pelo Sirius podem ser apagados livremente no Google Drive e na Google Agenda.</p>
+
+<h2>7. Contato</h2>
+<p>José Vinícius Bastos Pereira — <a href="mailto:joseviniciusbastos@gmail.com">joseviniciusbastos@gmail.com</a></p>
+</main>
+</body>
+</html>
